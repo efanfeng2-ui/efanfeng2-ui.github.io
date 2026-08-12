@@ -223,6 +223,7 @@ include: ["_pages"]
 exclude:
   - AGENTS.md
   - al-folio-upgrade-report.md
+  - WEBSITE_PLAN.md # internal build plan — contains private notes, must never be published
   - bin/
   - CLAUDE.md
   - Dockerfile

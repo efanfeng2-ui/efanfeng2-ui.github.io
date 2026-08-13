@@ -1,9 +1,14 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Journal/venue badges shown next to entries whose `abbr` matches a key here.
+"GBE":
+  url: https://academic.oup.com/gbe
+  color: "#861F41"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"AJTMH":
+  url: https://www.ajtmh.org/
+  color: "#1F5D6B"
 
-"Vision":
-  color: "#009f36"
+"In prep.":
+  color: "#6E626A"
+
+"Proc.":
+  color: "#6E626A"

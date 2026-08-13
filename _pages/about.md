@@ -2,16 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: >
+  Ph.D. Candidate, <a href="https://www.ento.vt.edu/">Department of Entomology</a> and
+  <a href="https://fralinlifesci.vt.edu/">Fralin Life Sciences Institute</a>, Virginia Tech.
+  Advised by Dr. Maria Sharakhova.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Blacksburg, Virginia</p>
+    <p><a href="mailto:efanfeng@vt.edu">efanfeng@vt.edu</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,13 +24,19 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Ph.D. candidate in Entomology at Virginia Tech, where I study how **chromosomal inversions** shape adaptation and speciation in mosquitoes.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+A chromosomal inversion flips a segment of a chromosome end to end. Because recombination is suppressed inside the flipped region, an inversion can lock hundreds of genes together and carry them through evolution as a single unit. In disease vectors, inversions have been tied to traits that matter enormously for public health — climatic tolerance, host preference, insecticide resistance. My work asks where these inversions are, how they behave in wild populations, and what they do.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Answering that takes both benches. I build **Hi-C libraries** at the wet bench, assemble and scaffold **chromosome-scale genomes** computationally, confirm rearrangements physically by **fluorescence _in situ_ hybridization (FISH)**, genotype them across natural populations with **PCR breakpoint assays**, and connect the resulting variation back to ecology through **population genomic analysis**. My dissertation applies that pipeline to the _Culex pipiens_ complex — vectors of West Nile virus and lymphatic filariasis — where forms with sharply different behaviors hybridize, and structural variation is especially consequential.
+
+I expect to defend in **December 2026**, and I am looking for roles where genome structure meets applied biology, in academia or in industry R&D.
+
+<div class="mt-4">
+  <a href="{{ '/assets/rendercv/rendercv_output/Yifan_Feng_CV.pdf' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Download CV</a>
+  <a href="{{ '/publications/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Publications</a>
+  <a href="mailto:efanfeng@vt.edu" class="btn btn-sm z-depth-0" role="button">Email me</a>
+</div>

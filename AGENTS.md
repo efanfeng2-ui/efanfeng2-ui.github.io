@@ -75,8 +75,12 @@ bundler's — this masked a real failure once already. Redirect to a log and ech
 - **Demo content removed**: all 33 `_posts/`, `assets/jupyter/`, `readme_preview/`,
   `lighthouse_results/`, `test/`.
 - **`external_sources` emptied** — the stock config fetched al-folio's Medium RSS at build time.
-- **Nav reduced** to Publications (2) · CV (3) · Teaching (4). `blog`, `books`, `dropdown`,
-  `plugins`, `profiles`, `projects`, `repositories` are `nav: false` but still build.
+- **Nav** is Research (1) · Publications (2) · CV (3) · Teaching (4) · Toolbox (5). `blog` and
+  `projects` are `nav: false` but still build.
+- **One local gem override**: `_sass/_themes.scss` shadows `al_folio_core`'s copy to set the
+  Virginia Tech maroon palette. Only the four theme/hover color lines differ — keep it that way so
+  gem updates stay diffable. It is recorded in `.al-folio-overrides.yml`; after touching it run
+  `bundle exec al-folio upgrade overrides audit` and re-accept.
 
 Demo content still present in `_news/`, `_projects/`, `_books/`, `_teachings/`, and
 `_bibliography/papers.bib` — replace it rather than leaving it live.

@@ -1,4 +1,4 @@
-# 个人学术网站建设方案 — Yifan (Emily) Feng
+# 个人学术网站建设方案 — Yifan Feng
 
 > 本文档是给 Claude Code 执行用的开发计划。所有网站正文内容用英文，本文档说明用中文。
 >
@@ -13,7 +13,7 @@
 | 网站定位 | 学术优先、工业界兼顾（academic-first, industry-aware）              |
 | 技术栈   | Jekyll + al-folio                                                   |
 | 仓库     | 重命名为 `efanfeng2-ui.github.io`（根域名，无 baseurl）             |
-| 姓名显示 | **Yifan (Emily) Feng**                                              |
+| 姓名显示 | **Yifan Feng**                                                      |
 | 博士毕业 | Expected **December 2026**                                          |
 | 本科学位 | 双学位：B.S. Biological Sciences + B.S. Food Science and Technology |
 
@@ -104,9 +104,9 @@ Hi-C 建库（湿实验）→ 基因组组装/scaffolding（干实验）→ FISH
 
 ```yaml
 first_name: Yifan
-middle_name: (Emily)
+middle_name:
 last_name: Feng
-title: Yifan (Emily) Feng
+title: Yifan Feng
 description: >
   Ph.D. Candidate in Entomology at Virginia Tech studying chromosomal
   inversions and genome evolution in mosquitoes.
@@ -558,9 +558,9 @@ bundle exec jekyll serve            # → http://localhost:4000
 url: https://efanfeng2-ui.github.io
 baseurl: # ← 留空，但不要删掉这一行
 
-title: Yifan (Emily) Feng
+title: Yifan Feng
 first_name: Yifan
-middle_name: (Emily)
+middle_name:
 last_name: Feng
 
 email: efanfeng@vt.edu
@@ -693,7 +693,7 @@ al-folio 自带 `.github/workflows/deploy.yml`，流程是：push 到 `main` →
 Claude Code 执行时的事实来源，全部提取自 `/Users/sunny/Desktop/Yifan/68e2e4a8ef5b9104f321613e/`。
 
 **身份**
-Yifan (Emily) Feng · Ph.D. Candidate, Department of Entomology & Fralin Life Sciences Institute, Virginia Tech · Blacksburg, VA · efanfeng@vt.edu · Advisor: Dr. Maria Sharakhova · Expected Dec 2026
+Yifan Feng · Ph.D. Candidate, Department of Entomology & Fralin Life Sciences Institute, Virginia Tech · Blacksburg, VA · efanfeng@vt.edu · Advisor: Dr. Maria Sharakhova · Expected Dec 2026
 
 **学位**
 

@@ -1,6 +1,6 @@
 # efanfeng2-ui.github.io
 
-Personal academic website of **Yifan (Emily) Feng** — Ph.D. candidate in Entomology at Virginia Tech,
+Personal academic website of **Yifan Feng** — Ph.D. candidate in Entomology at Virginia Tech,
 studying chromosomal inversions and genome evolution in mosquitoes.
 
 Live at **https://efanfeng2-ui.github.io**

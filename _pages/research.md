@@ -88,7 +88,7 @@ _Dissertation core · manuscript in preparation_
 
 **The approach.** I used Hi-C proximity ligation to detect candidate rearrangements between complex members, confirmed them physically by FISH, and developed PCR breakpoint assays to genotype them across populations.
 
-**What I am testing.** Whether inversion frequencies track ecological variables across North American populations, and whether the rearranged regions contain genes plausibly linked to host preference and diapause. This work was presented at ASTMH in 2024 and is being prepared for publication.
+**What I am testing.** Whether inversion frequencies track ecological variables across North American populations, and whether the rearranged regions contain genes plausibly linked to host preference and diapause. This work was presented at ASTMH in 2024, and the host-preference results have been accepted for the Student 10-Minute Presentation Competition at [Entomology 2026](https://entsoc.org/events/annual-meeting) in November. A manuscript is in preparation.
 
 ## Chromosome-scale genome assembly of _Aedes albopictus_
 

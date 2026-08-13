@@ -1,4 +1,4 @@
-# Agent Guidelines — Yifan (Emily) Feng's academic website
+# Agent Guidelines — Yifan Feng's academic website
 
 **Read this before editing.** This is a personal academic website built on the
 [al-folio](https://github.com/alshedivat/al-folio) v1.x starter, deployed to GitHub Pages at

@@ -33,7 +33,7 @@ A chromosomal inversion flips a segment of a chromosome end to end. Because reco
 
 Answering that takes both benches. I build **Hi-C libraries** at the wet bench, assemble and scaffold **chromosome-scale genomes** computationally, confirm rearrangements physically by **fluorescence _in situ_ hybridization (FISH)**, genotype them across natural populations with **PCR breakpoint assays**, and connect the resulting variation back to ecology through **population genomic analysis**. My dissertation applies that pipeline to the _Culex pipiens_ complex — vectors of West Nile virus and lymphatic filariasis — where forms with sharply different behaviors hybridize, and structural variation is especially consequential.
 
-I expect to defend in **December 2026**, and I am looking for roles where genome structure meets applied biology, in academia or in industry R&D.
+I expect to defend in **November 2026**, with the degree conferred in December 2026, and I am looking for roles where genome structure meets applied biology, in academia or in industry R&D.
 
 <div class="mt-4">
   <a href="{{ '/assets/rendercv/rendercv_output/Yifan_Feng_CV.pdf' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Download CV</a>

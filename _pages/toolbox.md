@@ -13,16 +13,16 @@ Everything below is work I do independently, without supervision, today.
 
 <div class="table-responsive" markdown="1">
 
-|                               | **Wet lab**                                                                                                   | **Dry lab**                                                                                  |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| **Nucleic acids**             | DNA/RNA extraction · PCR · qPCR · RT-qPCR · ddPCR · gel electrophoresis · cloning · nucleic acid purification | —                                                                                            |
-| **Library prep & sequencing** | Hi-C library preparation · Illumina library prep · Sanger sequencing · Nanopore long-read workflows           | Read QC · adapter trimming · alignment (BWA, Minimap2)                                       |
-| **Genome assembly**           | —                                                                                                             | Hi-C scaffolding (Juicer, Juicebox) · trio-binning · contiguity assessment · gene annotation |
-| **Cytogenetics & imaging**    | Chromosome preparation · FISH probe synthesis and hybridization · fluorescence microscopy (Zeiss ZEN)         | Image analysis (ImageJ) · physical map construction                                          |
-| **Population genetics**       | PCR breakpoint genotyping at population scale                                                                 | F<sub>ST</sub> · PCA · AMOVA · STRUCTURE · PLINK                                             |
-| **Cell & assay work**         | Mammalian and insect cell culture · sterile technique · ELISA · Western blot · BSL-2 practice                 | —                                                                                            |
-| **Programming & analysis**    | —                                                                                                             | R (ggplot2) · Python · Linux/Unix · MATLAB · Galaxy · Geneious · BLAST/NCBI                  |
-| **Communication**             | Lab notebook and data documentation · reagent inventory · safety compliance                                   | Scientific writing · grant proposal writing · GraphPad Prism · BioRender                     |
+|                               | **Wet lab**                                                                                                   | **Dry lab**                                                                                                                        |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| **Nucleic acids**             | DNA/RNA extraction · PCR · qPCR · RT-qPCR · ddPCR · gel electrophoresis · cloning · nucleic acid purification | —                                                                                                                                  |
+| **Library prep & sequencing** | Hi-C library preparation · sample preparation, QC, and submission for Illumina WGS · Sanger sequencing        | Read QC · adapter trimming · alignment (BWA, Minimap2)                                                                             |
+| **Genome assembly**           | —                                                                                                             | Hi-C scaffolding (Juicer, Juicebox) · trio-binning assembly from Nanopore long-read data · contiguity assessment · gene annotation |
+| **Cytogenetics & imaging**    | Chromosome preparation · FISH probe synthesis and hybridization · fluorescence microscopy (Zeiss ZEN)         | Image analysis (ImageJ) · physical map construction                                                                                |
+| **Population genetics**       | PCR breakpoint genotyping at population scale                                                                 | F<sub>ST</sub> · PCA · AMOVA · STRUCTURE · PLINK                                                                                   |
+| **Cell & assay work**         | Mammalian and insect cell culture · sterile technique · ELISA · Western blot · BSL-2 practice                 | —                                                                                                                                  |
+| **Programming & analysis**    | —                                                                                                             | R (ggplot2) · Python · Linux/Unix · MATLAB · Galaxy · Geneious · BLAST/NCBI                                                        |
+| **Communication**             | Lab notebook and data documentation · reagent inventory · safety compliance                                   | Scientific writing · grant proposal writing · GraphPad Prism · BioRender                                                           |
 
 </div>
 

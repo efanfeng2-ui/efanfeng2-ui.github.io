@@ -57,7 +57,7 @@ cv:
         end_date: present
         location: Blacksburg, VA
         highlights:
-          - Led multi-species genomic projects integrating **Hi-C scaffolding**, **Nanopore long-read sequencing**, and **FISH cytogenetic mapping** to assemble chromosome-scale mosquito genomes.
+          - Built **Hi-C libraries** and led the Hi-C component of **chromosome-scale mosquito genome assemblies** — trio-binning from **Nanopore long-read data**, **Hi-C scaffolding**, and **FISH** physical validation.
           - Designed and validated **PCR breakpoint assays** to genotype chromosomal inversions across natural populations, linking structural variants to climatic adaptation and vector traits.
           - Conducted population genomic analyses (**FST, PCA, AMOVA**) to quantify differentiation and gene flow among *Culex pipiens* populations across North America.
           - Performed molecular dissections, DNA extraction, library preparation, and fluorescence microscopy imaging; maintained mosquito colonies.
@@ -169,11 +169,11 @@ cv:
       - label: Molecular Biology
         details: DNA/RNA extraction, PCR, qPCR, RT-qPCR, ddPCR, gel electrophoresis, cloning, nucleic acid purification
       - label: Library Prep & Sequencing
-        details: Hi-C library preparation, Illumina library prep, Sanger sequencing, Nanopore long-read workflows
+        details: Hi-C library preparation, Sanger sequencing, Illumina WGS sample preparation and submission
       - label: Cytogenetics & Imaging
         details: Chromosome preparation, FISH probe synthesis and hybridization, fluorescence microscopy (Zeiss ZEN), ImageJ
       - label: Genomics & Bioinformatics
-        details: Hi-C scaffolding (Juicer, Juicebox), genome assembly, trio-binning, gene annotation, variant calling, alignment (BWA, Minimap2)
+        details: Hi-C scaffolding (Juicer, Juicebox), genome assembly from Nanopore long-read data, trio-binning, gene annotation, alignment (BWA, Minimap2)
       - label: Population Genetics
         details: FST, PCA, AMOVA, STRUCTURE, PLINK, inversion genotyping
       - label: Cell & Assay Work

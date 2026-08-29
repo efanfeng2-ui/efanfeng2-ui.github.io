@@ -2,9 +2,9 @@ name: Update Google Scholar Citations
 
 on:
   schedule:
+    # Weekly. Citation counts move slowly, and Google Scholar throttles
+    # datacenter IPs — the retry loop below matters more than the frequency.
     - cron: "0 0 * * 1" # Monday
-    - cron: "0 0 * * 3" # Wednesday
-    - cron: "0 0 * * 5" # Friday
   workflow_dispatch:
 
 permissions:
@@ -50,10 +50,21 @@ jobs:
         shell: bash
         run: |
           set +e
-          echo "🚀 Running citation update script (single attempt)..."
           start_time=$(date)
-          timeout 150 python bin/update_scholar_citations.py
-          status=$?
+          for attempt in 1 2 3; do
+            echo "🚀 Running citation update script (attempt $attempt/3)..."
+            timeout 150 python bin/update_scholar_citations.py
+            status=$?
+            # Only a throttle (124) is worth retrying; anything else is a real
+            # error and retrying just repeats it.
+            if [ $status -ne 124 ]; then
+              break
+            fi
+            if [ $attempt -lt 3 ]; then
+              echo "⏳ Attempt $attempt timed out; waiting 60s before retrying..."
+              sleep 60
+            fi
+          done
           end_time=$(date)
           set -e
           if [ $status -eq 0 ]; then
@@ -62,9 +73,9 @@ jobs:
           elif [ $status -eq 124 ]; then
             # Google Scholar throttles datacenter IPs. A timeout means "no fresh
             # numbers this run", not a broken script — keep the committed data.
-            echo "⏱️ Google Scholar did not respond within 150s (started at $start_time, ended at $end_time)."
-            echo "::warning::Google Scholar did not respond; citation data left unchanged."
-            echo "⏱️ Google Scholar timed out; citation data left unchanged." >> $GITHUB_STEP_SUMMARY
+            echo "⏱️ Google Scholar did not respond in 3 attempts (started at $start_time, ended at $end_time)."
+            echo "::warning::Google Scholar did not respond in 3 attempts; citation data left unchanged."
+            echo "⏱️ Google Scholar timed out after 3 attempts; citation data left unchanged." >> $GITHUB_STEP_SUMMARY
           else
             echo "❌ Citation update script failed with exit code $status (started at $start_time, ended at $end_time)."
             echo "❌ Citation update script failed with exit code $status." >> $GITHUB_STEP_SUMMARY

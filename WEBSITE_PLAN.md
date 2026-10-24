@@ -14,6 +14,7 @@
 | 技术栈   | Jekyll + al-folio                                                   |
 | 仓库     | 重命名为 `efanfeng2-ui.github.io`（根域名，无 baseurl）             |
 | 姓名显示 | **Yifan Feng**                                                      |
+| 博士入学 | **Spring 2022**；2021 年秋先入组工作（2026-10-23 用户确认）         |
 | 博士毕业 | Expected **December 2026**                                          |
 | 本科学位 | 双学位：B.S. Biological Sciences + B.S. Food Science and Technology |
 
@@ -348,13 +349,13 @@ al-folio 支持用 `_data/cv.yml` 生成结构化 CV。章节顺序（学术优�
 
 1. **Basics** — 姓名、邮箱、地点、一句话定位
 2. **Education**
-   - Ph.D. Entomology, Virginia Tech, 2021 – Dec 2026 (expected)
+   - Ph.D. Entomology, Virginia Tech, 2022 – Dec 2026 (expected)
      Advisor: Dr. Maria Sharakhova
      Dissertation: _Chromosomal Inversions Differentiate Mosquitoes in the Culex pipiens Complex_
    - B.S. Biological Sciences, Virginia Tech, 2017 – 2021
    - B.S. Food Science and Technology, Virginia Tech, 2017 – 2021
 3. **Research Experience**
-   - Graduate Research Assistant — Dept. of Entomology & Fralin Life Sciences Institute, Virginia Tech · Aug 2021 – present
+   - Graduate Research Assistant — Dept. of Entomology & Fralin Life Sciences Institute, Virginia Tech · Jan 2022 – present
    - Undergraduate Researcher — Dept. of Food Science and Technology, Virginia Tech · Sep 2020 – Dec 2020
      _Aerosolized Listeria contamination from cavitation treatment of raw produce_（MATLAB 建模 + 高性能计算模拟）
    - Undergraduate Research Assistant — Food Microbiology Lab, Virginia Tech · Jan 2020 – May 2021
@@ -380,7 +381,7 @@ al-folio 支持用 `_data/cv.yml` 生成结构化 CV。章节顺序（学术优�
 
 ### ENT 2004 — Insects and Human Society
 
-**Graduate Teaching Assistant**, Virginia Tech · Aug 2023 – May 2024
+**Graduate Teaching Assistant**, Virginia Tech · Spring and Fall 2024
 
 A general-education course introducing non-biology majors to entomology.
 I led weekly laboratory sessions and discussion sections covering insect
@@ -620,7 +621,7 @@ al-folio 自带 `.github/workflows/deploy.yml`，流程是：push 到 `main` →
 | #   | 问题                  | 各版本的说法                                                                                                                    | 我的处理                                                                                       |
 | --- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | 1   | 博士毕业时间          | Dec 2025 / Dec 2026                                                                                                             | **Dec 2026**（你已确认）                                                                       |
-| 2   | 博士入学时间          | 2021 / 2022 / "Aug 2021"                                                                                                        | 用 **2021**，与 "Aug 2021 – Present" 一致                                                      |
+| 2   | 博士入学时间          | 2021 / 2022 / "Aug 2021"                                                                                                        | **Spring 2022**（2026-10-23 用户确认）；Fall 2021 是入组工作时间                               |
 | 3   | 本科学位              | 双学位 Biology + Food Science / Biological Sciences 主修 + Food Science 辅修 / "Biological Sciences and Computational Modeling" | **双学位**（你已确认）。但"Computational Modeling"这个说法只出现在一份里，需你确认是否真实存在 |
 | 4   | 电话号码              | +1 540 000 0000（明显占位符）/ (848) 285-9808                                                                                   | **网站上不放电话**（学术主页放邮箱即可，放电话会招垃圾骚扰）                                   |
 | 5   | LinkedIn URL          | `linkedin.com/in/yifan-feng` / `linkedin.com/` / `www.linkedin.com/in/`（后两个是占位符）                                       | **需要你提供真实 URL**，否则不放这个链接                                                       |
@@ -697,7 +698,7 @@ Yifan Feng · Ph.D. Candidate, Department of Entomology & Fralin Life Sciences I
 
 **学位**
 
-- Ph.D. Entomology, Virginia Tech, 2021 – Dec 2026 (expected)
+- Ph.D. Entomology, Virginia Tech, 2022 – Dec 2026 (expected)
   Dissertation: _Chromosomal Inversions Differentiate Mosquitoes in the Culex pipiens Complex_
   Coursework: Molecular Genetics, Bioinformatics, Experimental Design, Biochemistry, Genomics
 - B.S. Biological Sciences, Virginia Tech, 2017 – 2021
@@ -705,9 +706,9 @@ Yifan Feng · Ph.D. Candidate, Department of Entomology & Fralin Life Sciences I
 
 **研究经历**
 
-1. Graduate Research Assistant — VT Entomology / Fralin Life Sciences Institute · Aug 2021 – present
+1. Graduate Research Assistant — VT Entomology / Fralin Life Sciences Institute · Jan 2022 – present
    Hi-C scaffolding · Nanopore sequencing · FISH cytogenetic mapping · PCR breakpoint assays · FST/AMOVA/PCA · 蚊虫种群维护 · 分子解剖 · 荧光显微成像 · 指导 2 名本科实习生
-2. Graduate Teaching Assistant — ENT 2004 Insects and Human Society · Aug 2023 – May 2024
+2. Graduate Teaching Assistant — ENT 2004 Insects and Human Society · Spring and Fall 2024
 3. Undergraduate Researcher — VT Food Science and Technology · Sep 2020 – Dec 2020
    Aerosolized _Listeria_ contamination from cavitation treatment of raw produce · microbubble treatment · MATLAB · 高性能计算模拟
 4. Undergraduate Research Assistant — Food Microbiology Lab, VT · Jan 2020 – May 2021
@@ -746,3 +747,11 @@ Volunteer, Blacksburg Mosquito Control Initiative · Member, Entomological Socie
 - GitHub Pages 文档 — https://docs.github.com/en/pages
 - VT Entomology — https://www.ento.vt.edu/
 - Fralin Life Sciences Institute — https://fralinlifesci.vt.edu/
+
+## 2026-10-23 内容核对更新
+
+本轮按 VT 邮件与用户确认修正了在读和工作时间线：2021 年秋先入组工作，2022 年春博士正式入学；ENT 2004 助教为 2024 年春、秋两学期，职责为线上评分、Canvas 反馈、新闻短讲和考题准备，不能恢复为 2023–2024 每周实验课。答辩正在协调 2026 年 12 月，尚非确定日期。
+
+新增 VMCA 2025–2026 学生海报竞赛第五名（2025 年 12 月通知，获 2026 会议免费注册）；CeZAP 报告为 2023-10-06，ASTMH 海报为 2024-11-16（New Orleans，7815）。白纹伊蚊稿件已使用 2026-10-15 版本的正式标题及完整作者顺序，仍处于共同作者审阅、准备 bioRxiv 投稿的阶段。
+
+当前网页和 `_data/cv.yml` 的已核实内容优先于本计划中的历史文案；博士论文最终正式题名待定，不应把 Culex 单篇论文标题当作最终学位论文标题。邮件证据与简历素材仅保存在个人简历工作区，不放入公开网站仓库。

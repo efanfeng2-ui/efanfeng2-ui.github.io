@@ -78,6 +78,8 @@ Finding and validating these rearrangements takes both a bench and a terminal. M
 
 The steps alternate between bench and terminal on purpose. A Hi-C signal that looks like an inversion can be an assembly artifact; FISH tells you whether it is physically real. A validated inversion in two genomes tells you nothing about whether it matters; population-scale genotyping does.
 
+This work also depends on collaboration beyond the laboratory. In 2026, I coordinated specimen and sample metadata transfers with the City of Suffolk Mosquito Control team to support mosquito research in Virginia.
+
 ---
 
 ## Chromosomal inversions in the _Culex pipiens_ complex
@@ -92,13 +94,15 @@ _Dissertation core · manuscript in preparation_
 
 ## Chromosome-scale genome assembly of _Aedes albopictus_
 
-_Manuscript in preparation_
+_First-author manuscript in preparation for bioRxiv submission_
 
 **The question.** _Aedes albopictus_, the Asian tiger mosquito, has spread across every inhabited continent in a few decades and transmits dengue, chikungunya, and Zika. Its genome is large and highly repetitive, which has kept assemblies fragmented and made structural variants hard to see.
 
 **The approach.** Trio-binning — parental Illumina reads used to partition offspring Nanopore long reads by haplotype — followed by Hi-C scaffolding to chromosome scale. Candidate inversions from the contact map were confirmed by FISH physical mapping.
 
 **What it enables.** A chromosome-scale, haplotype-resolved reference makes structural variation visible in a species where it has largely been invisible, and gives inversion genotyping in this vector a foundation to build on.
+
+The manuscript, _A haplotype-resolved genome assembly enables the discovery of chromosomal inversions in the arboviral vector Aedes albopictus_, is undergoing coauthor review. My contributions include methodology, experimental investigation, and manuscript drafting and revision. A poster on this project received **fifth place in the VMCA 2025–2026 Student Poster Competition**.
 
 ## Comparative inversion landscapes across vector mosquitoes
 

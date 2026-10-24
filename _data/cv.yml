@@ -27,13 +27,14 @@ cv:
       - institution: Virginia Polytechnic Institute and State University
         area: Entomology
         degree: PhD
-        start_date: 2021-08
+        start_date: 2022-01
         end_date: 2026-12
         location: Blacksburg, VA
         highlights:
           - "Advisor: Dr. Maria V. Sharakhova"
-          - "Dissertation: *Chromosomal Inversions Differentiate Mosquitoes in the Culex pipiens Complex*"
+          - "Research: Chromosomal inversions and genome evolution in *Culex* and *Aedes* mosquitoes"
           - Department of Entomology and Fralin Life Sciences Institute
+          - "Expected completion: December 2026; dissertation defense scheduling in progress"
           - "Coursework: Molecular Genetics, Bioinformatics, Genomics, Biochemistry, Experimental Design"
 
       - institution: Virginia Polytechnic Institute and State University
@@ -53,16 +54,27 @@ cv:
     Research Experience:
       - company: Virginia Tech — Department of Entomology & Fralin Life Sciences Institute
         position: Graduate Research Assistant
-        start_date: 2021-08
+        start_date: 2022-01
         end_date: present
         location: Blacksburg, VA
         highlights:
-          - Built **Hi-C libraries** and led the Hi-C component of **chromosome-scale mosquito genome assemblies** — trio-binning from **Nanopore long-read data**, **Hi-C scaffolding**, and **FISH** physical validation.
+          - Prepared **Hi-C libraries** for mosquito genome and structural variation studies; coordinated sequencing requirements, sample metadata, and data delivery with sequencing providers.
+          - Contributed to a **haplotype-resolved *Aedes albopictus* genome assembly** integrating **trio-binning**, **Nanopore long reads**, **Hi-C scaffolding**, and **FISH** physical validation; first author of the manuscript in preparation.
           - Designed and validated **PCR breakpoint assays** to genotype chromosomal inversions across natural populations, linking structural variants to climatic adaptation and vector traits.
           - Conducted population genomic analyses (**FST, PCA, AMOVA**) to quantify differentiation and gene flow among *Culex pipiens* populations across North America.
-          - Performed molecular dissections, DNA extraction, library preparation, and fluorescence microscopy imaging; maintained mosquito colonies.
-          - Mentored two undergraduate researchers in PCR optimization, experimental design, and scientific writing.
-          - Coordinated with collaborating groups across nine countries on the *Aedes aegypti* inversion study published in *Genome Biology and Evolution*.
+          - Performed molecular dissections, DNA extraction, and fluorescence microscopy imaging; maintained mosquito colonies and coordinated laboratory safety inspection responses.
+          - Mentored two undergraduate researchers in mosquito dissection, FISH probe preparation, and PCR optimization and troubleshooting for mosquito identification and population studies.
+          - Contributed to the international *Aedes aegypti* inversion study published in *Genome Biology and Evolution*.
+          - Prepared research summaries and FISH figures for an NIH grant progress report, incorporating feedback from the principal investigator.
+
+      - company: Virginia Tech — Sharakhova Lab
+        position: Research Assistant (before doctoral enrollment)
+        start_date: 2021-10
+        end_date: 2021-12
+        location: Blacksburg, VA
+        highlights:
+          - Supported mosquito colony maintenance and molecular cytogenetics, including PCR, DNA probe labeling, chromosome preparation, and FISH.
+          - Joined the laboratory in fall 2021 before beginning the PhD in spring 2022.
 
       - company: Virginia Tech — Department of Food Science and Technology
         position: Undergraduate Researcher
@@ -74,16 +86,6 @@ cv:
           - Applied microbubble cavitation treatments and quantified resulting aerosolized bacterial contamination.
           - Built MATLAB models of cavitation effects and ran predictive simulations on university high-performance computing resources.
           - Compiled, visualized, and statistically analyzed experimental results to identify contamination trends.
-
-      - company: Molecular Genetics Laboratory
-        position: Research Intern
-        start_date: 2020-03
-        end_date: 2021-12
-        location: Blacksburg, VA
-        highlights:
-          - Performed DNA extraction, PCR amplification, and sequencing for mosquito population genetics studies.
-          - Managed sample inventory and quality control for field and laboratory collections.
-          - Gained hands-on experience with genome assembly workflows and variant calling pipelines.
 
     Publications:
       - title: Chromosomal Inversions and Their Potential Impact on the Evolution of Arboviral Vector *Aedes aegypti*
@@ -134,36 +136,45 @@ cv:
         journal: Manuscript in preparation
         date: 2026
 
-      - title: Chromosome-Scale Genome Assembly of *Aedes albopictus*
+      - title: A haplotype-resolved genome assembly enables the discovery of chromosomal inversions in the arboviral vector *Aedes albopictus*
         authors:
           - "*Yifan Feng*"
+          - Chujia Chen
+          - Varvara Lukyanchikova
+          - Christen Hughes
+          - Mark Potters
+          - Ankita Sindhania
           - et al.
-        journal: Manuscript in preparation
+        journal: Manuscript in preparation for bioRxiv submission
         date: 2026
 
     Conference Presentations:
       - bullet: "**Talk (accepted)** — *Hi-C proximity ligation reveals chromosomal inversions potentially associated with host preference in Culex pipiens mosquitoes.* Student 10-Minute Presentation Competition, Entomology 2026 (ESA Annual Meeting), Columbus, OH, November 2026."
-      - bullet: "**Poster** — *Hi-C based discovery of structural variants in the Culex pipiens complex.* American Society of Tropical Medicine and Hygiene (ASTMH) Annual Meeting, November 2024."
-      - bullet: "**Presentation** — *Chromosomal inversions differentiate mosquitoes in the Culex pipiens complex.* CeZAP Infectious Disease Symposium, Blacksburg, VA, October 2023."
+      - bullet: "**Poster** — *Hi-C proximity ligation approach identified chromosomal rearrangements in Culex pipiens mosquitoes.* American Society of Tropical Medicine and Hygiene (ASTMH) Annual Meeting, New Orleans, LA, November 16, 2024. Poster 7815, Session C."
+      - bullet: "**Oral presentation** — *Chromosomal inversions differentiate mosquitoes in the Culex pipiens complex.* CeZAP Infectious Diseases Symposium, Blacksburg, VA, October 6, 2023."
+
+    Awards:
+      - bullet: "**Fifth place (runner-up), 2025–2026 Student Poster Competition**, Virginia Mosquito Control Association. Awarded December 2025 for an *Aedes albopictus* genome assembly poster; complimentary registration to the 2026 VMCA conference."
 
     Teaching and Mentoring:
       - company: Virginia Tech — Department of Entomology
         position: Graduate Teaching Assistant, ENT 2004 (Insects and Human Society)
-        start_date: 2023-08
-        end_date: 2024-05
+        start_date: 2024-01
+        end_date: 2024-12
         location: Blacksburg, VA
         highlights:
-          - Led weekly laboratory sessions and discussion sections for a general-education course serving non-biology majors.
-          - Taught insect taxonomy, physiology, and ecology exercises; graded laboratory reports and examinations.
-          - Developed visual teaching materials and provided one-on-one mentorship.
+          - Supported the asynchronous online course in Spring 2024 and the in-person course in Fall 2024, working with Dr. James Wilson and Dr. Ksenia Onufrieva.
+          - Graded assignments and provided rubric-based feedback in Canvas.
+          - Prepared short Insects in the News presentations and associated quiz or exam questions.
 
       - company: Sharakhova Lab, Virginia Tech
         position: Research Mentor, Undergraduate Researchers
-        start_date: 2024-01
+        start_date: 2024-04
         end_date: 2025-12
         location: Blacksburg, VA
         highlights:
-          - Mentored two undergraduate researchers through full project cycles — PCR optimization and troubleshooting, experimental design, data interpretation, and scientific writing.
+          - Trained two undergraduate researchers in mosquito dissection, FISH probe preparation, and PCR assays for mosquito identification and population studies.
+          - Troubleshot COI and ACE assays by reviewing primer dilutions, polymerase selection, reaction composition, cycling conditions, and gel results.
 
     Technical Skills:
       - label: Molecular Biology
@@ -184,7 +195,7 @@ cv:
         details: Manuscript preparation, grant proposal writing, poster and oral presentation, mentoring, laboratory documentation
 
     Service and Professional Membership:
-      - bullet: Volunteer, Blacksburg Mosquito Control Initiative — field collection and public outreach on vector-borne disease prevention.
+      - bullet: Volunteer, Mosquito Genetics exhibit, Hokie BugFest 2025, Virginia Tech — public outreach through hands-on activities and chromosome models.
       - bullet: Member, Entomological Society of America.
       - bullet: Member, Virginia Mosquito Control Association.
 
